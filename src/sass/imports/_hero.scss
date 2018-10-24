@@ -1,50 +1,20 @@
 // Hero Mobile
-#hero-video {
-    background: url('src/../../images/video-preload.jpg') center center / cover;
-    min-height: 100vh;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    z-index: -1;
-    object-position: 50% 100%;
-    object-fit: cover;
-    &::-webkit-media-controls {
-        display: none !important
-    }
-}
-
 // Hero Large 
-@media only screen and (min-width: 64.063em) {
-    #hero-video.loaded {
-        opacity: 1;
-    }
-    #hero-video {
-        min-width: 100vw;
-        left: 50%;
-        margin-left: -50%;
-        transition: opacity 1s;
-    }
-}
+@media only screen and (min-width: 64.063em) {}
 
 // Hero Full screen
-@media only screen and (min-width: 1920px) {
-    #hero-video {
-        left: 0;
-        margin-left: 0;
-    }
-}
+@media only screen and (min-width: 1920px) {}
 
 .hero-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100vh;
-    color: #fff;
+    color: $black-color;
     overflow-x: hidden;
-    background: rgba(0, 0, 0, 0.5);
     &::before {
         content: "";
-        background: rgba(0, 0, 0, 0.9);
+
         position: absolute;
         top: 0;
         height: 100vh;
@@ -100,44 +70,6 @@
         [role=button] {
             margin-top: 1.5rem;
             min-width: 250px;
-        }
-    }
-    .job {
-        display: block;
-        background-color: rgba(1, 156, 173, 0.8);
-        width: 400px;
-        position: absolute;
-        bottom: 40px;
-        right: 30px;
-        color: #fff;
-        padding: 1rem 1.15rem;
-        h3 {
-            font-size: 1.4rem;
-            font-style: italic;
-        }
-        p {
-            font-size: 1.1rem;
-            margin-bottom: 0;
-        }
-        &::after {
-            content: " ";
-            width: 10px;
-            height: 10px;
-            display: block;
-            position: absolute;
-            bottom: -15px;
-            right: 50%;
-            transform: translateX(50%);
-            border-left: 20px solid transparent;
-            border-right: 20px solid transparent;
-            border-top: 15px solid rgba(1, 156, 173, 0.8);
-        }
-        a.hire-me {
-            position: absolute;
-            height: 100%;
-            width: 100%;
-            z-index: 999;
-            margin: -17px 0 0 -18px;
         }
     }
 }

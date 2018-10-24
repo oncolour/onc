@@ -6,7 +6,7 @@ body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 300;
   letter-spacing: 0.6px;
-  background-color: #fafafa;
+  background-color: white;
   overflow-x: hidden;
   margin: 0; }
 
@@ -84,7 +84,7 @@ img:after {
   z-index: 1000;
   cursor: pointer;
   transition: all .3s ease-out;
-  color: #fafafa;
+  color: #121212;
   font-weight: 600;
   font-style: italic;
   letter-spacing: 0.08rem;
@@ -99,7 +99,7 @@ img:after {
   top: 1.5rem;
   position: fixed;
   z-index: 1000;
-  color: #fafafa; }
+  color: #121212; }
 
 @media only screen and (min-width: 64.063em) {
   .header-bar .header-bar-logo {
@@ -109,43 +109,15 @@ img:after {
     top: 5rem;
     right: 5.25rem; } }
 
-#hero-video {
-  background: url("src/../../images/video-preload.jpg") center center/cover;
-  min-height: 100vh;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  z-index: -1;
-  object-position: 50% 100%;
-  object-fit: cover; }
-  #hero-video::-webkit-media-controls {
-    display: none !important; }
-
-@media only screen and (min-width: 64.063em) {
-  #hero-video.loaded {
-    opacity: 1; }
-  #hero-video {
-    min-width: 100vw;
-    left: 50%;
-    margin-left: -50%;
-    transition: opacity 1s; } }
-
-@media only screen and (min-width: 1920px) {
-  #hero-video {
-    left: 0;
-    margin-left: 0; } }
-
 .hero-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100vh;
-  color: #fff;
-  overflow-x: hidden;
-  background: rgba(0, 0, 0, 0.5); }
+  color: #121212;
+  overflow-x: hidden; }
   .hero-wrapper::before {
     content: "";
-    background: rgba(0, 0, 0, 0.9);
     position: absolute;
     top: 0;
     height: 100vh;
@@ -182,40 +154,7 @@ img:after {
       font-size: 2rem; }
     #hero-content [role=button] {
       margin-top: 1.5rem;
-      min-width: 250px; }
-  .job {
-    display: block;
-    background-color: rgba(1, 156, 173, 0.8);
-    width: 400px;
-    position: absolute;
-    bottom: 40px;
-    right: 30px;
-    color: #fff;
-    padding: 1rem 1.15rem; }
-    .job h3 {
-      font-size: 1.4rem;
-      font-style: italic; }
-    .job p {
-      font-size: 1.1rem;
-      margin-bottom: 0; }
-    .job::after {
-      content: " ";
-      width: 10px;
-      height: 10px;
-      display: block;
-      position: absolute;
-      bottom: -15px;
-      right: 50%;
-      transform: translateX(50%);
-      border-left: 20px solid transparent;
-      border-right: 20px solid transparent;
-      border-top: 15px solid rgba(1, 156, 173, 0.8); }
-    .job a.hire-me {
-      position: absolute;
-      height: 100%;
-      width: 100%;
-      z-index: 999;
-      margin: -17px 0 0 -18px; } }
+      min-width: 250px; } }
 
 .animated {
   -webkit-animation-duration: 2s;
@@ -481,7 +420,7 @@ img:after {
     width: 100%; }
 
 .project-container {
-  background: #fafafa; }
+  background: #121212; }
 
 .project-context-info-list {
   padding: 3em 0; }
@@ -500,7 +439,8 @@ img:after {
   width: 90%;
   margin: auto; }
   .project-presentation picture img,
-  .project-presentation p, .project-presentation figcaption {
+  .project-presentation p,
+  .project-presentation figcaption {
     margin-bottom: 1.25rem; }
   .project-presentation p {
     padding: 0 1.25rem;
@@ -536,7 +476,7 @@ img:after {
     z-index: 1000;
     padding: 0 1.25rem;
     text-align: center;
-    color: #fafafa; }
+    color: #121212; }
     .next-project .next-project-container a {
       height: 100%;
       width: 100%;

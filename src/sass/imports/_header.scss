@@ -8,7 +8,7 @@
         z-index: 1000;
         cursor: pointer;
         transition: all .3s ease-out;
-        color: $white-color;
+        color: $black-color;
         font-weight: 600;
         font-style: italic;
         letter-spacing: 0.08rem;
@@ -24,7 +24,7 @@
         top: 1.5rem;
         position: fixed;
         z-index: 1000;
-        color: $white-color;
+        color: $black-color;
     }
 }
 
@@ -32,7 +32,7 @@
     .header-bar {
         .header-bar-logo {
             top: 5rem;
-            left: 5.25rem;  
+            left: 5.25rem;
         }
         i {
             top: 5rem;

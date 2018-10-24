@@ -3,7 +3,7 @@
 .portfolio-wrapper {
     background: $bg-color;
     h1 {
-        color: $white-color;
+        color: $black-color;
         font-weight: 700;
         padding: 2rem 0;
         font-size: 3.5rem;
@@ -19,7 +19,7 @@
 
 @media only screen and (min-width: 64.063em) {
     .portfolio-wrapper {
-        
+
         h1 {
             padding: 3rem 0;
         }

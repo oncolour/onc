@@ -1,8 +1,13 @@
 /* Variables */
-$open-sans: "Open Sans", Helvetica, Arial, sans-serif;
+
+$open-sans: "Open Sans",
+Helvetica,
+Arial,
+sans-serif;
 /* Colours2 */
-$white-color: #fafafa;
-$bg-color: #293134; 
+
+$black-color: #121212;
+$bg-color: #293134;
 
 $mobile-row-padding: 0 1.25rem;
 
@@ -13,7 +18,7 @@ body {
     font-family: $open-sans;
     font-weight: 300;
     letter-spacing: 0.6px;
-    background-color: $white-color;
+    background-color: white;
     overflow-x: hidden;
     margin: 0;
 }
@@ -38,10 +43,11 @@ h6 {
     margin-bottom: 0.5rem;
     line-height: 1.2;
 }
+
 p {
     font-family: $open-sans;
     font-size: 1.04rem;
-} 
+}
 
 
 figure {
@@ -52,14 +58,13 @@ figure {
 
 .button {
     background-color: #009cad;
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         background-color: #018f9e;
     }
 }
 
-#travel-gallery {
-   
-}
+#travel-gallery {}
 
 
 /* Broken Images */
