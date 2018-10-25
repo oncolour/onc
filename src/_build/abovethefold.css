@@ -84,10 +84,6 @@ img:after {
   z-index: 1000;
   cursor: pointer;
   transition: all .3s ease-out;
-  color: #121212;
-  font-weight: 600;
-  font-style: italic;
-  letter-spacing: 0.08rem;
   text-decoration: none; }
   .header-bar .header-bar-logo img {
     width: 4rem; }
