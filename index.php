@@ -10,9 +10,8 @@ require 'includes/page_header.php'; ?>
     <div id="hero-content" class="">
 
         <div class="fadeInUp">
-            <h1>Hi, I'm Oscar Nilsson</h1>
-            <p>Web Designer &amp; Front-End Developer with a great interest in UI/UX design.</p>
-            <a role="button" class="button large scroll" href="#work">View My Work</a>
+            <h1>oscar</h1>
+            <p>Art Director &mdash; UI Motion Designer &mdash; Front-End Developer</p>
         </div>
     </div>
     <?php

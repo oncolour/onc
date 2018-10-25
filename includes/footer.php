@@ -1,7 +1,7 @@
 <footer id="page-footer">
     
         
-        <ul class="social-icons-footer">
+        <ul class="social-icons-footer fadeInUp">
             <li>
                 <a target="_blank" href="https://dribbble.com/stoggy"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
             </li>

@@ -14,7 +14,6 @@
         letter-spacing: 0.08rem;
         text-decoration: none;
         img {
-            opacity: 0.8;
             width: 4rem;
         }
     }
@@ -31,12 +30,8 @@
 @media only screen and (min-width: 64.063em) {
     .header-bar {
         .header-bar-logo {
-            top: 5rem;
-            left: 5.25rem;
-        }
-        i {
-            top: 5rem;
-            right: 5.25rem;
+            top: 40px;
+            left: 40px;
         }
     }
 }

@@ -26,18 +26,18 @@
 #hero-content {
     text-align: center;
     h1 {
-        font: italic 400 2rem/1.2 $open-sans;
+        font: normal 700 2.5rem/1.2 $lato;
+        letter-spacing: 1em;
+        text-transform: uppercase;
+        margin-right:-1em;
     }
     p {
-        font-size: 1.2rem;
+        font-size: 1rem;
+        font-weight: bold;
     }
     [role=button] {
         margin-top: 1.5rem;
     }
-}
-
-.job {
-    display: none;
 }
 
 
@@ -46,10 +46,10 @@
 @media only screen and (min-width: 40.063em) {
     #hero-content {
         h1 {
-            font-size: 3rem;
+            font-size: 4rem;
         }
         p {
-            font-size: 1.6rem;
+            font-size: 1.2rem;
         }
     }
 }
@@ -62,10 +62,10 @@
         position: relative;
         z-index: 0;
         h1 {
-            font-size: 4rem;
+            font-size: 5rem;
         }
         p {
-            font-size: 2rem;
+            font-size: 1.625rem;
         }
         [role=button] {
             margin-top: 1.5rem;

@@ -21,7 +21,7 @@
     <meta property="og:image" content="" />
     <meta name="application-name" content="Oncolour" />
 
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
 
     <?php // Check REMOTE_ADDR  phpinfo(); ?>
     <?php if($local = $_SERVER['REMOTE_ADDR']=='127.0.0.1' ? 1 : 0) { 
@@ -60,6 +60,7 @@
     ?>
 
     <script>
+    
         var cb = function() {
             var l = document.createElement('link');
             l.rel = 'stylesheet';
@@ -111,7 +112,7 @@
     </script>
     <nav class="header-bar">
 
-        <a href="/" class="header-bar-logo">onc.</a>
+        <a href="/" class="header-bar-logo fadeInUp"><img src="/images/onc-logo.svg" alt="Oncolour logotype oscar nilsson" /></a>
         <!--<i class="fa fa-bars" aria-hidden="true"></i> -->
 
 

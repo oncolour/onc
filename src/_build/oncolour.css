@@ -18,24 +18,20 @@
     padding: 3rem 0; } }
 
 #page-footer {
-  width: 100%;
-  display: flex;
-  flex-direction: column-reverse;
+  background: none;
   position: absolute;
   bottom: 25px;
-  right: 25px; }
+  left: 20px; }
 
 ul.social-icons-footer {
-  margin: 0.5rem 0 1.5rem;
-  padding: 0 1.25rem;
   display: flex;
   justify-content: space-between;
-  max-width: 500px; }
+  width: 90vw; }
   ul.social-icons-footer li {
     display: inline-block; }
     ul.social-icons-footer li a > i.fa {
       font-size: 32px;
-      color: rgba(255, 255, 255, 0.65);
+      color: rgba(0, 0, 0, 0.75);
       transition: 0.2s ease; }
       ul.social-icons-footer li a > i.fa:hover {
         transition: 0.2s ease; }
@@ -54,13 +50,11 @@ ul.social-icons-footer {
       ul.social-icons-footer li a > i.fa.fa-facebook-official:hover {
         color: #3b5998; }
 
+@media only screen and (min-width: 640px) {
+  ul.social-icons-footer {
+    width: 320px; } }
+
 @media only screen and (min-width: 64em) {
-  .start-new-project {
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: baseline; }
-  .start-new-project-link {
-    width: 385px; }
   #footer-txt {
     margin-bottom: 0em; }
     #footer-txt p {

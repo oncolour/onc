@@ -3,7 +3,7 @@
 /* Colours2 */
 /* Reset */
 body {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: 300;
   letter-spacing: 0.6px;
   background-color: white;
@@ -20,7 +20,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: inherit;
@@ -30,7 +30,7 @@ h6 {
   line-height: 1.2; }
 
 p {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 1.04rem; }
 
 figure {
@@ -90,7 +90,6 @@ img:after {
   letter-spacing: 0.08rem;
   text-decoration: none; }
   .header-bar .header-bar-logo img {
-    opacity: 0.8;
     width: 4rem; }
 
 .header-bar i {
@@ -103,11 +102,8 @@ img:after {
 
 @media only screen and (min-width: 64.063em) {
   .header-bar .header-bar-logo {
-    top: 5rem;
-    left: 5.25rem; }
-  .header-bar i {
-    top: 5rem;
-    right: 5.25rem; } }
+    top: 40px;
+    left: 40px; } }
 
 .hero-wrapper {
   display: flex;
@@ -127,21 +123,22 @@ img:after {
 #hero-content {
   text-align: center; }
   #hero-content h1 {
-    font: italic 400 2rem/1.2 "Open Sans", Helvetica, Arial, sans-serif; }
+    font: normal 700 2.5rem/1.2 "Lato", Helvetica, Arial, sans-serif;
+    letter-spacing: 1em;
+    text-transform: uppercase;
+    margin-right: -1em; }
   #hero-content p {
-    font-size: 1.2rem; }
+    font-size: 1rem;
+    font-weight: bold; }
   #hero-content [role=button] {
     margin-top: 1.5rem; }
-
-.job {
-  display: none; }
 
 /* min-width 641px, medium screens */
 @media only screen and (min-width: 40.063em) {
   #hero-content h1 {
-    font-size: 3rem; }
+    font-size: 4rem; }
   #hero-content p {
-    font-size: 1.6rem; } }
+    font-size: 1.2rem; } }
 
 /* min-width 1025px, large screens */
 @media only screen and (min-width: 64.063em) {
@@ -149,9 +146,9 @@ img:after {
     position: relative;
     z-index: 0; }
     #hero-content h1 {
-      font-size: 4rem; }
+      font-size: 5rem; }
     #hero-content p {
-      font-size: 2rem; }
+      font-size: 1.625rem; }
     #hero-content [role=button] {
       margin-top: 1.5rem;
       min-width: 250px; } }
@@ -357,7 +354,7 @@ img:after {
     text-align: center;
     padding: 0 1.25rem; }
     .hero-wrapper.post div h1 {
-      font-family: "Open Sans", Helvetica, Arial, sans-serif;
+      font-family: "Lato", Helvetica, Arial, sans-serif;
       font-size: 3.5rem;
       font-weight: 600; }
     .hero-wrapper.post div p {
@@ -367,7 +364,7 @@ img:after {
       font-size: 1.7rem;
       color: rgba(250, 250, 250, 0.8);
       font-weight: 400;
-      font-family: "Open Sans", Helvetica, Arial, sans-serif;
+      font-family: "Lato", Helvetica, Arial, sans-serif;
       text-transform: capitalize;
       line-height: 1.2; }
     .hero-wrapper.post div a.inactive {
